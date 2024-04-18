@@ -1,0 +1,33 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, figure, blockquote, d1, dd {
+	margin: 10px;
+	padding: 20px;
+}
+
+/* Set box-sizing to border-box for all elements */
+*, *before, *:after{
+	box-sizing: border-box;
+}
+
+/* Set basic font and background */
+body{
+	font-family: Arial, sans-serif; 20px
+	line-height: 2;
+	font-size: 18px;
+	color: #333;
+	background-color: #fff;
+	padding: 20px;
+}
+
+/* Links */
+a {
+	color: #0077cc;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+/* Add other global styles here */
